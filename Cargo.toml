@@ -20,9 +20,9 @@ rand = "0.10"
 serde = { version = "1", features = ["derive"], optional = true }
 
 [dependencies.bevy]
-version = "0.19"
+version = "0.20.0"
 default-features = false
 
 [dev-dependencies]
 paste = "1.0.15"
-bevy = { version = "0.19" }
+bevy = { version = "0.20.0" }
